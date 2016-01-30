@@ -36,7 +36,6 @@
 - Kaffe [x2 -kcal]
 - Mjölk [80 kcal]
 - Muffin [315 kcal]
-- Kanelbulle [130 kcal]
 - Äpple [70 kcal]
 * Gym
 - Lätt [-320 kcal]
@@ -55,3 +54,50 @@
 - Gräddtårta [880 kcal]
 * Toalett spy
 * Helkroppsspegel - klär av sig - somna
+
+[KCAL counter blinks, sound of an alarm clock]
+Awoken by the noon light, you wake up in your room. It's saturday.
+[Get up]
+It's pretty chilly. The fuzz on your arms stand on edge. You consider shaving it.
+[Get dressed]
+Seems like breakfast would be appropriate.
+[Leave room]
+Before leaving, you stop before the mirror hanging on your door.
+Your reflection is a pudgy, pale mess in ill fitting clothes.
+[Go to kitchen]
+Your (parent's) kitchen is newly renovated.
+This is your first breakfast in a while.
+[Open fridge]
+Inside is:
+- An egg [70 kcal]
+- Bacon [345 kcal]
+- Grape fruit [35 kcal]
+- Carrot juice [68 kcal]
+- Bread [100 kcal]
+[Eat breakfast]
+You eat your breakfast in the silence of the kitchen.
+[Freshen up]
+Your teeth are looking brown today. They could use a good brushing.
+	[Use toilet]
+	Hunkering over the toilet, you put your fingers down your throat.
+	Your breakfast eagerly leaves your body.
+[Brush teeth]
+White Now(TM) is definitely the scam of decade.
+You remember you've promised to meet your friend at a coffee shop.
+	[Meet friend]
+	Some coffee would be good.
+	[Go to gym]
+	You decide to ditch your friend. Just this once.
+While riding the bus to your destination you pick up a newspaper.
+There's an article about the latest diet fad.
+[Continue reading]
+	Your friend greets you with a huge hug and a smile to match.
+	The coffee shop has a wide array of treats.
+	- Coffee [x2 -kcal(?)]
+	- Milk [80 kcal]
+	- Muffin [315 kcal]
+	- Apple [70 kcal]
+	[Fika]
+	You eat your food in silence. Your friend goes on about their waist problem.
+	"But you don't have to worry about that sort of thing"
+	You don't appreciate the sarcasm.
