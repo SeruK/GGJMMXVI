@@ -1,4 +1,4 @@
-[Rituals - An exercise in control] [Rituals] [Control] [Paranoia] [Advanced Calculus]
+[Rituals - An exercise in control]
 
 * kolhydrater, fett och socker
 * kcal-räknare
@@ -19,10 +19,12 @@
 * Kontroll
 * Rör sig hela tiden, pillar med saker osv
 * http://www.raknakalorier.se/
+* Cutta upp, besticken på bordet, tugga 50 gånger, ta en sip av vattnet
 
 * Mål 500kcal max på dag
 
-* Vaknar - klär sig varmt (nämna fjun) - helkroppsspegel dörren
+* Vaknar - går till badrummet, använder toaletten sen väger sig - 
+Sovrum - klär sig varmt (nämna fjun) - helkroppsspegel dörren
 * Frukost
 - Ägg [70 kcal]
 - Bacon [345 kcal]
@@ -52,19 +54,24 @@
 * Breakfast at Tiffany's (Ätit stor middag, aldrig bli lika smal)
 * Hetsäta
 - Gräddtårta [880 kcal]
-* Toalett spy
+* Toalett spy - väga sig
 * Helkroppsspegel - klär av sig - somna
 
 [KCAL counter blinks, sound of an alarm clock]
 Awoken by the noon light, you wake up in your room. It's saturday.
 [Get up]
 It's pretty chilly. The fuzz on your arms stand on edge. You consider shaving it.
-[Get dressed]
+[Pick up clothes]
 Seems like breakfast would be appropriate.
 [Leave room]
 Before leaving, you stop before the mirror hanging on your door.
 Your reflection is a pudgy, pale mess in ill fitting clothes.
+[Go to bathroom]
+Tossing your clothes on the bathroom floor, you place your feet on the scale.
+A bit less since yesterday.
 [Go to kitchen]
+
+You get dressed and go upstairs.
 Your (parent's) kitchen is newly renovated.
 This is your first breakfast in a while.
 [Open fridge]
@@ -77,20 +84,25 @@ Inside is:
 [Eat breakfast]
 You eat your breakfast in the silence of the kitchen.
 [Freshen up]
+
 Your teeth are looking brown today. They could use a good brushing.
 	[Use toilet]
 	Hunkering over the toilet, you put your fingers down your throat.
-	Your breakfast eagerly leaves your body.
+	Your breakfast eagerly leaves your body. (-kcal)
 [Brush teeth]
+
 White Now(TM) is definitely the scam of decade.
 You remember you've promised to meet your friend at a coffee shop.
+
 	[Meet friend]
 	Some coffee would be good.
 	[Go to gym]
 	You decide to ditch your friend. Just this once.
+
 While riding the bus to your destination you pick up a newspaper.
 There's an article about the latest diet fad.
 [Continue reading]
+	
 	Your friend greets you with a huge hug and a smile to match.
 	The coffee shop has a wide array of treats.
 	- Coffee [x2 -kcal(?)]
@@ -98,6 +110,133 @@ There's an article about the latest diet fad.
 	- Muffin [315 kcal]
 	- Apple [70 kcal]
 	[Fika]
-	You eat your food in silence. Your friend goes on about their waist problem.
-	"But you don't have to worry about that sort of thing"
-	You don't appreciate the sarcasm.
+	Both of you order and sit down by a table. Your friend goes on about their waist problem. 
+	While you eat your food in silence, an endless stream of words pour out of their mouth.
+	"But what am I saying? With a body like yours you don't have to worry about that sort of thing"
+	You don't appreciate the sarcasm and question coming here.
+	[Finish up]
+	That coffee went right through you. You excuse yourself and visit the bathroom.
+		[Use toilet]
+		You go about your business. (-kcal)
+
+	Arriving at the gym, it almost feels like coming home.
+	How much cardio do you want to do today?
+	- Easy [-320 kcal]
+	- Medium [-500 kcal]
+	- Tough [-600 kcal]
+	[Cardio]
+	Light-headed, but satisfied you prepare to leave the gym.
+	A bowl of chips is sitting on a table in the lobby.
+	"You deserve it!"
+	[Take chips] [45 kcal]
+		All that work for nothing. [+45 kcal]
+	[Leave]
+
+On the bus home your phone rings.
+
+	A somewhat grumpy voice greets you.
+	"Where were you? I waited for like an hour.
+	"Anyway, my dinner is still on for tonight. Hope you'll show up for that at least."
+
+	A recognizable cheery voice greets you.
+	"Hey, I forgot to tell you, my dinner is still on tonight. Can I count on you?"
+
+[Leave excuse]
+You really don't feel like you have the energy for socializing.
+A somewhat hurt voice:
+"Good-bye then"
+[Go home]
+
+Finally home. A repulsive smell hits your nostrils.
+[Go to your room]
+Before you reach the safety of your room, your mother's voice calls from upstairs.
+"Honey! You're just in time for dinner."
+You shout back that you're not hungry.
+"It's your father's birthday, honey. No excuses."
+[Well, fuck]
+
+The table is set with the nice china.
+A shudder goes through you when you notice what's being served.
+	"Geez, honey. You could've changed from your gym clothes."
+- Pork chop [246 kcal]
+- Boiled potatoes [136 kcal]
+- Cream sauce [68 kcal]
+- Peas [20 kcal]
+Your mother's glance pierces you, a cruel grin on her lips.
+	"Oh no, you don't. You're going to eat."
+	She begins loading your plate with food.
+"You're going to finish every last bit. You have to eat, honey."
+Hopefully your blank stare conveys your feelings.
+
+- You cut the porkshop into small pieces.
+- You cut the potatoes into small pieces.
+- You swirl the sauce around a bit, making sure it doesn't touch anything else
+- You eat the peas, the only acceptable thing on the plate
+
+You place some porkshop in your mouth, chewing it fifty times. [+kcal]
+You place the potato mush in your mouth, chewing it fifty times. [+kcal]
+When there's sufficiently little left on your plate you carefully start mixing what's left together.
+After mushing the potatoes, you swirl it in with the sauce.
+While your parents are distracted, you gather the remaing pork chop in a pile.
+You push as much mush as possible to the pile. You cover it with your fork and knife.
+[Ask to be excused]
+Hiding the napkin in your hands, you ask to be excused.
+"Oh, come on, honey. We're having family time."
+Another one of her sick grins distorts her face.
+"Don't you want another portion?"
+Why does she have to be so mean?
+"At least have some dessert?"
+[Freshen up]
+
+You go downstairs. The napkin is firmly grasped in your hand.
+A click informs you that the bathroom door is firmly locked.
+[Use toilet]
+Round and round the napkin goes when you flush.
+It's mesmerizing.
+[Use scale]
+More than in the morning. A bit less than yesterday.
+Good.
+[Go to your room]
+
+ 
+You put on Breakfast at Tiffany's. It's warm undernearth the bedsheets.
+You think about the dessert upstairs.
+Time passes. Dessert. The movie isn't helping.
+Be strong. Be in control. You don't need it.
+Tea might help.
+Tea will help.
+[Go to kitchen]
+
+The newly renovated kitchen is empty.
+Your parents have gone out.
+[Open fridge] [Open cupboard]
+- Cake [880 kcal]
+You get a spoon.
+You eat one piece.
+You eat another.
+You eat another.
+You eat another.
+There's no cake left.
+You drop the spoon to the floor.
+[Freshen up]
+
+You almost slip while running down the stairs.
+The bathroom door flies open.
+[Cleanse yourself]
+You stick your fingers down your throat.
+Get the poison out.
+[Cleanse yourself]
+Fingers. Down your throat.
+Get it all out.
+[Cleanse yourself]
+The last bits are coming out.
+You cough, clinging to the toilet seat.
+Your throat hurts.
+[Use scale]
+You fat failure.
+[Go to your room]
+You return to your room. Audrey Hepburn is having a party.
+She's wearing a sleeveless dress.
+Her arms are beautiful.
+You put your fingers around your own arm. The fingertips don't touch.
+You set a new goal.
