@@ -97,6 +97,7 @@ public partial class Game : MonoBehaviour {
 		labelMain.text = "";
 		labelFood.text = "";
 		labelKcal.text = "000\nkcal";
+		UpdateKcalColor();
 		selectedButton = -1;
 		kcal = 0;
 		pageIsSingleChoice = false;
@@ -391,7 +392,13 @@ public partial class Game : MonoBehaviour {
 		float volume = Mathf.Lerp( 0.2f, 1.0f, ( (float)Mathf.Max( kcal, 0 ) ) / 500.0f );
 		Sound sound = value > 0 ? soundTick : soundTock;
 		PlaySound( sound, volume );
+		UpdateKcalColor();
 		yield break;
+	}
+
+	private void UpdateKcalColor() {
+		Color color = kcal < 250 ? Color.green : kcal < 500 ? Color.yellow : Color.red;
+		labelKcal.color = color;
 	}
 
 	private IEnumerator SetText( string value ) {
