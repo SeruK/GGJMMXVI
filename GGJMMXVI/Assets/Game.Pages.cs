@@ -152,7 +152,7 @@ public partial class Game : MonoBehaviour {
 			"Go to bathroom" ),
 		new NormalPage( "Tossing your clothes on the bathroom floor, you get on the scale.\nA bit less since yesterday.",
 			"Go to kitchen" ),
-		new NormalPage( "You get dressed and go upstairs.\nYour (parent's) kitchen is newly renovated.\nThis is your first breakfast in a while.",
+		new NormalPage( "You get dressed and go upstairs.\nYour (parents') kitchen is newly renovated.\nThis is your first breakfast in a while.",
 			"Open fridge" ),
 		new FoodPage( new Tag( "Fridge" ), "Inside is:",
 			new FoodInfo[] {
@@ -193,10 +193,10 @@ public partial class Game : MonoBehaviour {
 		new NormalPage( "That coffee went right through you. You excuse yourself and visit the bathroom.\nYou turn on the sink.",
 			new ButtonInfo( "Leave", pageTag: "BusFik" ),
 			new ButtonInfo( "Use toilet", pageTag:"", forceIfFat: true ) ),
-		new ThrowPage( "You go about your business", new ButtonInfo( "Go home" ) ),
+		new ThrowPage( "You go about your business.", new ButtonInfo( "Go home" ) ),
 		new NormalPage( new Tag( "BusFik" ), "On the bus home your phone rings.",
 			new ButtonInfo( "Answer" ) ),
-		new NormalPage( "A recognizable, cheery voice greets you.\n\"Hey, I forgot to tell you, my dinner is still on tonight. Can I count on you?\"",
+		new NormalPage( "A recognizably cheery voice greets you.\n\"Hey, I forgot to tell you, my dinner is still on tonight. Can I count on you?\"",
 			new ButtonInfo( "Leave excuse", pageTag: "PostOuting" ) ),
 
 		new FoodPage( new Tag( "Gym" ), "Arriving at the gym, you go straight to the floor.\nHow much cardio do you want to do today?",
@@ -218,7 +218,7 @@ public partial class Game : MonoBehaviour {
 		new NormalPage( "\"Anyway, my dinner is still on for tonight. Hope you'll show up for that at least.\"",
 			new ButtonInfo( "Leave excuse", pageTag: "PostOuting" ) ),
 
-		new NormalPage( new Tag( "PostOuting" ), "You really don't feel like you have the energy for socializing.\nYour friend sounds let down.\n\"Good-bye then\"",
+		new NormalPage( new Tag( "PostOuting" ), "You really don't feel like you have the energy for socializing.\nYour friend sounds let down.\n\"Good bye then.\"",
 			new ButtonInfo( "Go home" ) ),
 
 		new NormalPage ( "Finally home. A repulsive smell hits your nostrils.",
@@ -241,9 +241,9 @@ public partial class Game : MonoBehaviour {
 			"Blank stare" ),
 		new NormalPage( "You place some porkshop in your mouth, chewing it fifty times.",
 			"Chew" ),
-		new NormalPage( "You place the potato mush in your mouth, chewing it fifty times.",
+		new NormalPage( "You place some potato mush in your mouth, chewing it fifty times.",
 			"Chew" ),
-		new NormalPage( "When noone's looking, you discreetly spit the food into your napkin",
+		new NormalPage( "When no one's looking, you discreetly spit the food into your napkin.",
 			"Spit" ),
 		new NormalPage( "You eat the peas, making sure no sauce gets on them.",
 			new ButtonInfo( "Eat", pageTag: "", kcal: 20, forceIfFat: false ) ),
@@ -305,12 +305,12 @@ public partial class Game : MonoBehaviour {
 			new ButtonInfo( "Cleanse yourself" ), aThird: true ), 
 		new ThrowPage( new Tag( "Throw3" ), "You keep going until barely anything comes out.\nYou cough, clinging to the toilet seat.\nYour throat hurts.",
 			new ButtonInfo( "Use scale" ) ),
-		new NormalPage( "You fat failure",
+		new NormalPage( "You fat failure.",
 			"Go to your room" ),
 
 		new NormalPage( "You return to your room. Audrey Hepburn is having a party.\nShe's wearing a sleeveless dress.\nHer arms are beautiful.\nYou put your fingers around your own arm. The fingertips don't touch.",
 			"Continue" ),
-		new NormalPage( "You set a new goal",
+		new NormalPage( "You set a new goal.",
 			"Fin" ),
 	};
 }

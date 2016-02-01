@@ -220,7 +220,7 @@ public partial class Game : MonoBehaviour {
 				yield return StartCoroutine( WaitForButton() );
 				if( forced != -1 && selectedButton != forced ) {
 					selectedButton = -1;
-					Set( "You can't do that yet", normalPage.buttons );
+					Set( "You can't do that yet.", normalPage.buttons );
 				} else {
 					break;
 				}
