@@ -36,7 +36,11 @@ public class Credits : MonoBehaviour {
 			StartCoroutine( FadeOutLabel( label, 3.0f ) );
 		}
 		yield return new WaitForSeconds( 5.0f );
+#if UNITY_WEBPLAYER
+		Application.LoadLevel( "TitleScreen" );
+#else
 		Application.Quit();
+#endif
 	}
 
 	private IEnumerator FadeInLabels( List<Text> labels ) {
