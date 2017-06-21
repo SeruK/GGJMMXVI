@@ -254,7 +254,7 @@ public partial class Game : MonoBehaviour {
 			ButtonInfo info = normalPage.buttons[ selectedButton ];
 			yield return StartCoroutine( AddKcal( info.kcal ) );
 			if( !string.IsNullOrEmpty( info.pageTag ) ) {
-				UE.Debug.Assert( tagToIndex.ContainsKey( (string)info.pageTag ), "Tag \"{0}\" not found", info.pageTag );
+				UE.Debug.AssertFormat( tagToIndex.ContainsKey( (string)info.pageTag ), "Tag \"{0}\" not found", info.pageTag );
 				nextPage = tagToIndex[ (string)info.pageTag ];
 			}
 		} else if( page is FoodPage ) {
@@ -274,7 +274,7 @@ public partial class Game : MonoBehaviour {
 			var throwPage = (ThrowPage)page;
 			ButtonInfo info = throwPage.button;
 			if( !string.IsNullOrEmpty( info.pageTag ) ) {
-				UE.Debug.Assert( tagToIndex.ContainsKey( (string)info.pageTag ), "Tag \"{0}\" not found", info.pageTag );
+				UE.Debug.AssertFormat( tagToIndex.ContainsKey( (string)info.pageTag ), "Tag \"{0}\" not found", info.pageTag );
 				nextPage = tagToIndex[ (string)info.pageTag ];
 			}
 		}
